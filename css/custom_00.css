@@ -1,0 +1,164 @@
+.header{height: 265px;margin: 10px 0;}
+.headf{height: 50px;}
+.header-img{background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    height: 115px;
+    background-size: 850px;
+    background-position-y: -74px;
+    border-bottom: solid #fff 3px;}
+.photo-profile{position: relative;padding: 5px 5px;top: -128px}
+.img-border{padding:3px;}
+.head-title {margin:20px 0;}
+.box-footer{
+	padding: 15px;
+background: #444;
+}
+h1{font-size: 18px; font-weight: bold;margin-top: 10px;
+margin-bottom: 10px;}
+h2{font-size: 28; font-weight: bold}
+h3{margin:5px!important; font-size: 18px;font-weight: bold;}
+.sub{font-size:25px; font-weight:bold;text-transform: uppercase; padding: 25px 0;border-bottom : 1px solid #ddd;}
+.year-i{padding: 5px 18px; color:rgba(0,0,0,0.54);}
+.discribe{color:rgba(0,0,0,0.54); font-size: 20px;}
+
+.box-c0{border: 1px solid #ddd;margin-bottom: 20px;}
+.box-foot{padding: 0 10px 10px;	}
+.box-h {padding: 10px;line-height: 23px;}
+.box-header {border:1px solid #ccc;background: #444;color: #fcfcfc;}
+.box-c{	margin: 0 29px;}
+.box-c i {color:rgba(0,0,0,0.54);}
+.box-title{ padding: 10px;background: #f9f9f9; border-bottom: solid 5px #1caaa1;
+border-right: solid 5px #cecece;}
+
+body{max-width: 900px;margin: 0 auto;/*background-image:url(../img/background.png);*/background-size: 100%;background-attachment: fixed; }
+.std-mail{width: 0;transition: width 2s;}
+
+.right-ico{ float: right }
+.left-ico{ margin-right:10px; }
+
+.default-mail:hover .std-mail { width: 230px;}
+.std-mail{ position: absolute; bottom: -3px; left:18px; background-color: #222; overflow: hidden; height: 20px; overflow: hidden; color: #fff; width: 0px; transition: width 1.5s; font-family: sans-serif; padding:5px 0;}
+a{color:rgba(0,0,0,0.54);}
+i a{color:rgba(0,0,0,0.54); margin-left: 15px}
+a.social-button:hover {
+    color: rgb(90, 90, 90);
+    background: #fff;
+}
+.progress{height:10px!important;margin-bottom: 0px!important;margin-top: 2px;}
+
+#Portofolio{background:#f9f9f9;}
+.row.box-h{border:none!important;}
+.mask{   float: right; color: #c47942; border-top: 240px solid #fff; border-left: 20px solid transparent; border-bottom: solid 85px #fff;}
+.footer-data{ margin:25px 0 0; padding:0px; background:#fff;}
+.footer-bg{background-image: url(../img/archer.gif);background-size: 230%; background-repeat: no-repeat;padding: 0px;background-position: 25% 80%;}
+.media-list.box-h{margin-bottom: 0px!important;}
+.col-md-8.box-h{padding-bottom: 0px;border-top:0px;}
+.footer{background:#f9f9f9; padding:20px;text-align: center;border:solid #ddd 1px;}
+
+
+.zeroPadding{padding: 0px}
+
+
+/*--- subhead panel ---*/
+.title-sub{
+padding: 2px 5px 0px;
+background: #eee;
+color: #3e3e3e;
+border-bottom: solid 3px #d0d0d0;
+border-left: solid 3px #3a92ff;
+font-weight: bold;
+}
+
+.text{font-size: 13px;margin: 0px 0px 8px 20px;border-bottom: solid 1px #222;padding: 2px 5px;}
+/*--- subhead panel ---*/
+
+
+/*--- bookmark ---*/
+.menu{background: #222;list-style: none;text-align: right;}
+.menu a{   width:150px; color: transparent; font-size: 12px;    float: right; }
+.menu a:hover{color:#1E8BC3}
+.menu a i.fa {background: #222; padding: 5px 5px 5px 2px; color: white;float: right;text-align: right;font-size: 20px;transition: width  left 2s;width:25px;}
+.default-nv:hover .text-data { width: 75px;}
+.text-data {background-color: #222;overflow: hidden; float: right;text-align: right;overflow: hidden; color: #fff; width: 0px;transition: width 1.5s;font-family: sans-serif;font-size: 17px;
+padding: 3px 0px 3px 4px;}
+
+
+.right-menu{float:right;position:fixed; right: 0px}
+/*--- bookmark ---*/
+
+.subCat{background: #1b9ab4;
+    padding: 2px 5px;
+    color: #fff;
+    border-radius: 4px;}
+.photopolio{
+padding: 10px;
+    margin-bottom: 2px;
+    display: inline-block;
+    width: 49%;
+}
+.photopolioBlack h5{
+	border-bottom: solid 1px #fff;
+	margin-bottom: 5px;
+	font-size: 15px;
+	padding: 2px 2px 5px;
+}
+.photopolioBlack{
+	border: solid 1px #333;
+    background: #444444;
+    color: #fff;
+}
+.photopolioWhite h5{
+	font-size: 15px;
+	border-bottom: solid 1px #686868;
+	margin-bottom: 5px;
+	padding: 2px 2px 2px;
+
+}
+.photopolioWhite{
+border: solid 1px #acabab;
+    background: #e5e5e5;
+    color: #686868;
+}
+
+
+		.social-button{
+			padding: 8px 12px;
+			background: #222;
+			color: #fff;
+			border-radius: 4px
+		}
+
+		.img-circle.img-border {background: #fff; filter: blur(0.3px); width: 71px}
+		.list-skill {margin-bottom: 10px;}
+		.list-skill-sub{margin-left: 25px;}
+		.exp{border-bottom: solid 1px #ccc;padding: 5px 0px 0px;}
+		.expDate{float: right; font-size: 10px}
+		.expSub{   color: #a9a9a9; font-size: 10px}
+		.desc{font-size: 11px;
+    text-align: justify;
+    line-height: 16px;}
+    .star-color{color: #f1c40f; text-shadow: 1px 1px 1px #f39c12;}
+
+
+    	@media screen and (max-width: 729px){
+			.img-circle.img-border{
+				       width: 72px;
+			}
+		}
+
+		@media screen and (max-width: 1224px){
+/*			.photo-profile {
+
+			    top: -148px;
+			}*/
+/*			img.img-circle.img-border{
+			width: 11%;}*/
+		}
+		@media screen and (max-width: 1024px){
+			.img-circle.img-border{
+				        width: 71px;
+			}
+		}
+
+
+.navigation{position: fixed;bottom: 10px;right: 10px;}
