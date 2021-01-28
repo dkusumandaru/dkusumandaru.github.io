@@ -1,11 +1,12 @@
 .header{height: 265px;margin: 10px 0;}
 .headf{height: 50px;}
 .header-img{background-image: url(../img/header.jpg);
-    background-repeat: no-repeat;
-    height: 115px;
-    background-size: 850px;
-    background-position-y: -74px;
-    border-bottom: solid #fff 3px;}
+	background-repeat: no-repeat;
+	height: 115px;
+	background-size: 850px;
+	background-position-y: -74px;
+	border-bottom: solid #fff 3px;
+}
 .photo-profile{position: relative;padding: 5px 5px;top: -128px}
 .img-border{padding:3px;}
 .head-title {margin:20px 0;}
@@ -19,6 +20,7 @@ h2{font-size: 28; font-weight: bold}
 h3{margin:5px!important; font-size: 18px;font-weight: bold;}
 .sub{font-size:25px; font-weight:bold;text-transform: uppercase; padding: 25px 0;border-bottom : 1px solid #ddd;}
 .year-i{padding: 5px 18px; color:rgba(0,0,0,0.54);}
+.majors-i{padding: 0 0 0 18px;color: rgb(0,0,0,0.64);font-size: 11px;line-height: 13px;}
 .discribe{color:rgba(0,0,0,0.54); font-size: 20px;}
 
 .box-c0{border: 1px solid #ddd;margin-bottom: 20px;}
@@ -41,8 +43,8 @@ body{max-width: 900px;margin: 0 auto;/*background-image:url(../img/background.pn
 a{color:rgba(0,0,0,0.54);}
 i a{color:rgba(0,0,0,0.54); margin-left: 15px}
 a.social-button:hover {
-    color: rgb(90, 90, 90);
-    background: #fff;
+	color: rgb(90, 90, 90);
+	background: #fff;
 }
 .progress{height:10px!important;margin-bottom: 0px!important;margin-top: 2px;}
 
@@ -55,8 +57,9 @@ a.social-button:hover {
 .col-md-8.box-h{padding-bottom: 0px;border-top:0px;}
 .footer{background:#f9f9f9; padding:20px;text-align: center;border:solid #ddd 1px;}
 
-
+.zeroMargin{margin: 0px}
 .zeroPadding{padding: 0px}
+.fivePadding{padding: 0 10px}
 
 
 /*--- subhead panel ---*/
@@ -75,7 +78,7 @@ font-weight: bold;
 
 /*--- bookmark ---*/
 .menu{background: #222;list-style: none;text-align: right;}
-.menu a{   width:150px; color: transparent; font-size: 12px;    float: right; }
+.menu a{   width:150px; color: transparent; font-size: 12px;	float: right; }
 .menu a:hover{color:#1E8BC3}
 .menu a i.fa {background: #222; padding: 5px 5px 5px 2px; color: white;float: right;text-align: right;font-size: 20px;transition: width  left 2s;width:25px;}
 .default-nv:hover .text-data { width: 75px;}
@@ -86,79 +89,126 @@ padding: 3px 0px 3px 4px;}
 .right-menu{float:right;position:fixed; right: 0px}
 /*--- bookmark ---*/
 
-.subCat{background: #1b9ab4;
-    padding: 2px 5px;
-    color: #fff;
-    border-radius: 4px;}
-.photopolio{
-padding: 10px;
-    margin-bottom: 2px;
-    display: inline-block;
-    width: 49%;
+/*--- portofolio---*/
+	.portofolio{
+		padding: 10px;
+		margin-bottom: 2px;
+		display: inline-block;
+		width: 49%;
+	}
+	.portofolioBlack h5{
+		border-bottom: solid 1px #fff;
+		margin-top: 15px;
+		margin-bottom: 5px;
+		font-size: 15px;
+		padding: 2px 2px 5px;
+	}
+	.portofolioBlack h5 a{
+		color: #fff;
+	}
+
+	.portofolioBlack{
+		border: solid 1px #333;
+		background: #444444;
+		color: #fff;
+	}
+	.portofolioWhite h5{
+		font-size: 15px;
+		border-bottom: solid 1px #686868;
+		margin-top: 15px;
+		margin-bottom: 5px;
+		padding: 2px 2px 2px;
+	}
+	.portofolioWhite{
+		border: solid 1px #acabab;
+		background: #e5e5e5;
+		color: #686868;
+	}
+	.portofolio-discribe{
+		font-size: 12px;
+		line-height: 18px
+	}
+	.portofolio-tag{
+		position: absolute;
+		right: 15px;
+		top: 80px;	
+	}
+
+	.subCat{
+		background: #1b9ab4;
+		padding: 2px 5px;
+		color: #fff;
+		border-radius: 4px;
+	}
+
+	img.thumbnail {
+		margin: 0px;
+	}
+
+	.portofolio-box {
+		padding: 15px 10px;
+		margin-bottom: 2px;
+		display: inline-block;
+	}
+	.no-image{
+		color: #444;
+		height: 115px;
+		font-weight: 800;
+		padding: 22% 10px;
+		text-align: center;
+		margin: 0px;
+		border-radius: 5px;
+		background: #fbfbfb;
+		border: 5px solid #fff;
+	}
+	.portofolio-date{
+		background: #4848489c;
+		position: absolute;
+		right: -5px;
+		top: -10px;
+		font-size: 10px;
+		padding: 0 10px;
+		color: #fff;
+	}
+
+/*--- portofolio---*/
+
+
+.social-button{
+	padding: 8px 12px;
+	background: #222;
+	color: #fff;
+	border-radius: 4px}
+
+.img-circle.img-border {background: #fff; filter: blur(0.3px); width: 71px}
+.list-skill {margin-bottom: 10px;}
+.list-skill-sub{margin-left: 25px;}
+.exp{border-bottom: solid 1px #ccc;padding: 5px 0px 0px;}
+.expDate{float: right; font-size: 10px}
+.expSub{   color: #a9a9a9; font-size: 10px}
+.desc{
+	font-size: 11px;
+	text-align: justify;
+	line-height: 16px;
 }
-.photopolioBlack h5{
-	border-bottom: solid 1px #fff;
-	margin-bottom: 5px;
-	font-size: 15px;
-	padding: 2px 2px 5px;
-}
-.photopolioBlack{
-	border: solid 1px #333;
-    background: #444444;
-    color: #fff;
-}
-.photopolioWhite h5{
-	font-size: 15px;
-	border-bottom: solid 1px #686868;
-	margin-bottom: 5px;
-	padding: 2px 2px 2px;
 
-}
-.photopolioWhite{
-border: solid 1px #acabab;
-    background: #e5e5e5;
-    color: #686868;
+.star-color{color: #f1c40f; text-shadow: 1px 1px 1px #f39c12;}
+
+@media screen and (max-width: 729px){
+	.img-circle.img-border{
+		width: 72px;
+	}
 }
 
-
-		.social-button{
-			padding: 8px 12px;
-			background: #222;
-			color: #fff;
-			border-radius: 4px
-		}
-
-		.img-circle.img-border {background: #fff; filter: blur(0.3px); width: 71px}
-		.list-skill {margin-bottom: 10px;}
-		.list-skill-sub{margin-left: 25px;}
-		.exp{border-bottom: solid 1px #ccc;padding: 5px 0px 0px;}
-		.expDate{float: right; font-size: 10px}
-		.expSub{   color: #a9a9a9; font-size: 10px}
-		.desc{font-size: 11px;
-    text-align: justify;
-    line-height: 16px;}
-    .star-color{color: #f1c40f; text-shadow: 1px 1px 1px #f39c12;}
-
-
-    	@media screen and (max-width: 729px){
-			.img-circle.img-border{
-				       width: 72px;
-			}
-		}
-
-		@media screen and (max-width: 1224px){
-/*			.photo-profile {
-
-			    top: -148px;
-			}*/
-/*			img.img-circle.img-border{
-			width: 11%;}*/
-		}
-		@media screen and (max-width: 1024px){
-			.img-circle.img-border{
-				        width: 71px;
-			}
-		}
+@media screen and (max-width: 1224px){
+	/*.photo-profile {top: -148px;}*/
+	/*img.img-circle.img-border{width: 11%;}*/
+}
+@media screen and (max-width: 1024px){
+	.img-circle.img-border{
+		width: 71px;
+	}
+}
 
 
 .navigation{position: fixed;bottom: 10px;right: 10px;}
