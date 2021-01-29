@@ -150,6 +150,10 @@ padding: 3px 0px 3px 4px;}
 		margin-bottom: 2px;
 		display: inline-block;
 	}
+	.no-discribe{
+	    height: 97px!important;
+    	padding: 18% 5px!important;
+	}
 	.no-image{
 		color: #444;
 		height: 115px;
