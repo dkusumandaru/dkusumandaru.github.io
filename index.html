@@ -651,13 +651,36 @@
 
 	<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 footer">
 		2017-<span id="year"></span> © CV. | <a href="">dKusumandaru</a>
+
+		<div class="pull-right">
+			<a href="https://dkusumandaru.github.io" class="btn btn-sm btn-success" title="go to web version..."><span class="fa fa-globe"></span></a>
+		</div>
 	</div>
 
-	<div class="nav navigation">
-		<a href="https://dkusumandaru.github.io" class="btn btn-sm btn-success" title="go to web version..."><span class="fa fa-globe"></span></a>
-	</div>
+
 </div>
 
 	<script type="text/javascript" src="js/main.js"></script>
+
+	<script type="text/javascript">
+		;(function() {
+    var pageHeight = 0;
+
+    function findHighestNode(nodesList) {
+        for (var i = nodesList.length - 1; i >= 0; i--) {
+            if (nodesList[i].scrollHeight && nodesList[i].clientHeight) {
+                var elHeight = Math.max(nodesList[i].scrollHeight, nodesList[i].clientHeight);
+                pageHeight = Math.max(elHeight, pageHeight);
+            }
+            if (nodesList[i].childNodes.length) findHighestNode(nodesList[i].childNodes);
+        }
+    }
+
+    findHighestNode(document.documentElement.childNodes);
+
+    // The entire page height is found
+    console.log('Page height is', pageHeight);
+})();
+	</script>
 </body>
 </html>
