@@ -68,7 +68,7 @@ padding: 2px 5px 0px;
 background: #eee;
 color: #3e3e3e;
 border-bottom: solid 3px #d0d0d0;
-border-left: solid 3px #3a92ff;
+border-left: solid 3px #1caaa1;
 font-weight: bold;
 }
 
@@ -215,4 +215,4 @@ padding: 3px 0px 3px 4px;}
 }
 
 
-.navigation{position: absolute;bottom: 10px;right: 10px;}
+.navigation{position: fixed;bottom: 5px;right: 5px;}
